@@ -17,7 +17,7 @@ export default function App() {
   return (
     <Router>
       <ScrollToTop />
-      <div className="flex flex-col min-h-screen bg-alu-blue text-alu-silver font-sans relative">
+      <div className="flex flex-col min-h-screen bg-alu-blue text-alu-silver font-sans relative overflow-x-hidden">
         <Navbar />
         <main className="flex-grow">
           <Routes>
@@ -31,7 +31,7 @@ export default function App() {
         <Footer />
         {/* WhatsApp Floating Button */}
         <a
-          href="https://wa.me/917621800722"
+          href="https://wa.me/917621800755"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-6 right-6 p-4 bg-[#25D366] text-white rounded-full shadow-lg hover:shadow-[#25D366]/50 hover:scale-105 transition-all z-40"

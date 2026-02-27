@@ -88,7 +88,7 @@ export default function Footer() {
                   className="flex items-center gap-3 text-sm text-alu-silver-dark hover:text-alu-accent transition-colors"
                 >
                   <Phone className="w-5 h-5 text-alu-accent shrink-0" />
-                  <span>+91 7621800722</span>
+                  <span>+91 7621800755</span>
                 </a>
               </li>
               <li>
