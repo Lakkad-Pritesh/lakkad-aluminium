@@ -19,8 +19,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, description, imageUrl,
       transition={{ duration: 0.5, delay: index * 0.1 }}
       className="group relative bg-alu-blue-light rounded-2xl overflow-hidden border border-white/5 hover:border-alu-accent/30 transition-all duration-300 shadow-lg hover:shadow-alu-accent/10"
     >
-      <div className="aspect-[4/3] overflow-hidden relative">
-        <div className="absolute inset-0 bg-gradient-to-t from-alu-blue-light to-transparent z-10 opacity-60 group-hover:opacity-40 transition-opacity duration-300" />
+      <div className="aspect-4/3 overflow-hidden relative">
+        <div className="absolute inset-0 bg-linear-to-t from-alu-blue-light to-transparent z-10 opacity-60 group-hover:opacity-40 transition-opacity duration-300" />
         <img
           src={imageUrl}
           alt={title}
